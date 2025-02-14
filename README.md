@@ -1,6 +1,6 @@
-LAPORAN LAB BACKEND NEST.JS
+#LAPORAN LAB BACKEND NEST.JS
 
-1. PENDAHULUAN
+#1. PENDAHULUAN
 Proyek ini merupakan implementasi backend menggunakan NestJS untuk sistem manajemen mahasiswa dengan fitur:
 
 Autentikasi berbasis JWT
@@ -15,7 +15,7 @@ Dokumentasi API menggunakan Swagger
 
 Dibangun dengan prinsip skalabilitas dan keamanan, proyek ini cocok sebagai dasar pengembangan aplikasi edukasi modern.
 
-2. STRUKTUR PROYEK
+#2. STRUKTUR PROYEK
 bash
 Copy
 lab-nestjs/
@@ -29,14 +29,16 @@ lab-nestjs/
 │   └── main.ts          # Entry point aplikasi
 ├── test/                # Unit test
 └── .env                 # Environment variables
-3. TEKNOLOGI UTAMA
+
+#3. TEKNOLOGI UTAMA
 Teknologi	Peran
 NestJS	Framework backend TypeScript
 Prisma	ORM untuk PostgreSQL
 WebSocket	Komunikasi real-time (chat)
 JWT	Autentikasi pengguna
 Swagger	Dokumentasi API interaktif
-4. DIAGRAM ARSITEKTUR
+
+#4. DIAGRAM ARSITEKTUR
 mermaid
 Copy
 flowchart TB
@@ -45,8 +47,9 @@ flowchart TB
     API --> Prisma --> PostgreSQL
     API -->|Auth| JWT
     WS -->|Broadcast| Client
-5. FITUR UTAMA
-A. Autentikasi Pengguna
+    
+#5. FITUR UTAMA
+#A. Autentikasi Pengguna
 mermaid
 Copy
 sequenceDiagram
@@ -59,14 +62,14 @@ sequenceDiagram
     Server-->>Client: Token JWT
     Client->>Server: Request dengan token
     Server-->>Client: Akses diberikan
-B. Manajemen Data Mahasiswa
+#B. Manajemen Data Mahasiswa
 CRUD data mahasiswa
 
 Upload foto profil
 
 Pencarian berdasarkan NIM/nama/jurusan
 
-C. Chat Real-Time
+#C. Chat Real-Time
 mermaid
 Copy
 sequenceDiagram
@@ -77,7 +80,7 @@ sequenceDiagram
     Server->>UserB: Notifikasi UserA bergabung
     UserA->>Server: Kirim pesan ke "KelasC"
     Server->>UserB: Teruskan pesan
-6. PANDUAN INSTALASI
+#6. PANDUAN INSTALASI
 Clone Repository
 
 bash
@@ -115,7 +118,7 @@ Aplikasi: http://localhost:3000
 
 Dokumentasi: http://localhost:3000/api-docs
 
-7. DOKUMENTASI KODE
+#7. DOKUMENTASI KODE
 Contoh Endpoint: GET /mahasiswa
 typescript
 Copy
