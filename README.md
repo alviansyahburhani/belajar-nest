@@ -173,8 +173,4 @@ Proyek ini berhasil mengimplementasikan:
 - **Integrasi dengan sistem akademik lain** 🏫
 - **Monitoring performa dengan Grafana/Prometheus** 📊
 
----
-
-🔗 **GitHub Repository:** [https://github.com/username/lab-nestjs](https://github.com/username/lab-nestjs)  
-📩 **Kontak Pengembang:** [email@example.com](mailto:email@example.com)
 
