@@ -1,5 +1,4 @@
 LAPORAN LAB BACKEND NEST.JS
-(Revisi Ringkas dengan Peningkatan Format dan Kejelasan)
 
 1. PENDAHULUAN
 Proyek ini merupakan implementasi backend menggunakan NestJS untuk sistem manajemen mahasiswa dengan fitur:
